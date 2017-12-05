@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MATA</string>
+
+    <string name="medication_analytical_tracking_app">Medication Analytical Tracking App</string>
+    <string name="please_enter_your_name">Please Enter Your Name</string>
+    <string name="go_to_next_page">Go To Next Page</string>
+    <string name="explore_mata">Please Login</string>
+    <string name="learn_more">Learn More</string>
+    <string name="register">Register</string>
+    <string name="learn_more_land">Learn More</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="country">Country</string>
+    <string name="signin">SignIn</string>
+    <string name="login">Login</string>
+    <string name="username2">username2</string>
+    <string name="enter_password_here">enter password here</string>
+
+
+</resources>

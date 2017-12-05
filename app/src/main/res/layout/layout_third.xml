@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAEBD7"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20pt"
+            android:text="Login Portal"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:background="#FAEBD7"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+        <EditText
+            android:id="@+id/username2"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:hint="user name" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_password_here"/>
+
+
+
+        <Button
+            android:id="@+id/btnLogin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtPass"
+            android:layout_marginLeft="127dp"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="29dp"
+            android:text="@string/login"
+            android:onClick="Login"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
